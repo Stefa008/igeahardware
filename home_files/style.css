@@ -1,0 +1,113 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  .hero {
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .latest-articles .article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .latest-articles .article h3 {
+    font-size: 1.5rem;
+  }
+  
+  .latest-articles .article p {
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .latest-articles .article h3 {
+      font-size: 1.2rem;
+    }
+  
+    .latest-articles .article p {
+      font-size: 1rem;
+    }
+  }
+  
