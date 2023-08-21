@@ -5,7 +5,7 @@ a{text-decoration: none;}
 
 h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px; line-height: normal;}
 
-.big-text{font-size: 70px;font-weight: 900;}
+.big-text{font-size: 60px;font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px; line-height: normal;}
 
 .divisore {
     background: yellow;
+}
+
+.prereq {
+    background: rgb(0, 0, 0);
 }
 
 
